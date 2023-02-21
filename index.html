@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>JS</title>
+</head>
+<body>
+    <!-- Counter app -->
+    <div class="header">
+        <h1>JavaScript Counter App</h1>
+    </div>
+    <div class="main">
+        <h1>People Entered</h1>
+        <div id="counter" class="counter">0</div>
+        <div class="btn">
+            <button id="increment" class="increment" onclick="increment()">+</button>
+            <button id="decrement" class="decrement" onclick="decrement()">-</button>
+        </div>
+        <button id="save" onclick="save()">Save</button>
+        <h2>Previous Entries: </h2>
+        <h1 id="savedCounts">
+            
+        </h1>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
